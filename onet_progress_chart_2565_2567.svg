@@ -1,0 +1,40 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="white" />
+  
+  <!-- Title -->
+  <text x="300" y="40" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="bold">O-NET Thai Language Score Progress (2565-2567)</text>
+  
+  <!-- Axes -->
+  <line x1="80" y1="350" x2="550" y2="350" stroke="black" stroke-width="2" /> <!-- X axis -->
+  <line x1="80" y1="350" x2="80" y2="80" stroke="black" stroke-width="2" /> <!-- Y axis -->
+  
+  <!-- Y Axis Labels -->
+  <text x="70" y="355" font-family="Arial" font-size="12" text-anchor="end">0</text>
+  <text x="70" y="287.5" font-family="Arial" font-size="12" text-anchor="end">25</text>
+  <text x="70" y="220" font-family="Arial" font-size="12" text-anchor="end">50</text>
+  <text x="70" y="152.5" font-family="Arial" font-size="12" text-anchor="end">75</text>
+  <text x="70" y="85" font-family="Arial" font-size="12" text-anchor="end">100</text>
+  
+  <!-- Bars (Scale: 2.7 px per unit) 
+       2565: 57.66 * 2.7 = 155.68 -> y = 350 - 155.68 = 194.32
+       2566: 59.09 * 2.7 = 159.54 -> y = 350 - 159.54 = 190.46
+       2567: 70.65 * 2.7 = 190.75 -> y = 350 - 190.75 = 159.25
+  -->
+  
+  <!-- Bar 2565 -->
+  <rect x="130" y="194.3" width="80" height="155.7" fill="#ff9999" />
+  <text x="170" y="185" font-family="Arial" font-size="14" text-anchor="middle">57.66</text>
+  <text x="170" y="370" font-family="Arial" font-size="14" text-anchor="middle">2565</text>
+  
+  <!-- Bar 2566 -->
+  <rect x="260" y="190.5" width="80" height="159.5" fill="#66b3ff" />
+  <text x="300" y="180" font-family="Arial" font-size="14" text-anchor="middle">59.09</text>
+  <text x="300" y="370" font-family="Arial" font-size="14" text-anchor="middle">2566</text>
+  
+  <!-- Bar 2567 -->
+  <rect x="390" y="159.3" width="80" height="190.7" fill="#99ff99" />
+  <text x="430" y="150" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">70.65</text>
+  <text x="430" y="370" font-family="Arial" font-size="14" text-anchor="middle">2567</text>
+  
+</svg>
